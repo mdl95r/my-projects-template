@@ -1,0 +1,28 @@
+{
+	"env": {
+		"browser": true,
+		"es6": true,
+		"node": true
+	},
+	"extends": ["airbnb/base"],
+	"rules": {
+		"indent": [2, "tab"],
+		"no-tabs": "off",
+		"func-names":"off",
+		"no-new":"off",
+		"default-case":"warn",
+		"max-len": ["error", {
+			"code": 110
+		}],
+		"import/prefer-default-export": "off",
+		"no-unused-expressions": ["error", 
+			{ 
+				"allowShortCircuit": true,
+				"allowTernary": true
+			}
+		],
+		"linebreak-style":"off",
+		"consistent-return": "warn",
+		"no-use-before-define": "warn"
+	}
+}
