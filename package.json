@@ -4,9 +4,7 @@
   "description": "myproject-template",
   "scripts": {
     "start": "gulp",
-    "buid:webpack": "webpack --env mode=production",
-    "build:gulp": "gulp build",
-    "build": "build:gulp && buid:webpack",
+    "build": "gulp build",
     "stylelint": "stylelint \"**/*.scss\"",
     "stylelint:fix": "stylelint \"**/*.scss\" --fix",
     "eslint": "eslint src/js",

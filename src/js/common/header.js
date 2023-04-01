@@ -1,3 +1,1 @@
-const initHeader = () => console.log('initHeader');
-
-export default initHeader;
+export const initHeader = () => console.log('initHeader');
